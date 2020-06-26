@@ -2,8 +2,9 @@
 the week'''
 # Solution
 temp=[]
-days=("monday","tuesday","wednesday","thrusday","friday","saturday","sunday")
+days=("Monday","Tuesday","Wednesday","Thrusday","Friday","Saturday","Sunday")
 for j in range(7):
-	temperature=int(input(("enter the max terperature of",days[j])))
+	print ("Enter the max terperature of",days[j])
+	temperature=int(input())
 	temp=temp+[temperature]
 print("average temperature is =",(sum(temp)/7))
